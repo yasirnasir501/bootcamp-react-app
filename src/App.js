@@ -6,7 +6,11 @@ function App() {
   return (
     <div className="App">
     {/* <Dinner></Dinner>*/}
-    <Dinner dishName="Chicken Karahi"/>
+    <Dinner dishName="Chicken Karahi" sweetDish="Kheer"/>
+    <hr/>
+    <Dinner dishName="Biryani" sweetDish="Jaleebi"/>
+    <hr/>
+    <Dinner dishName="Nihaari" sweetDish="Gajar Ka Halwa"/>
     </div>
   );
 }
